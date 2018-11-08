@@ -1,0 +1,65 @@
+#dayDiv{
+	width: 700px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+#timeAndLine {
+	width: 65px;
+	margin-top: -9px;
+	float: left;
+}
+
+#events {
+	padding: 0 10px 0 10px;
+	background: #D1D1D1;
+	width: 500px;
+	float: left;
+	position: relative;
+	height: 560px;
+}
+
+#currentDate {
+	text-align: center;
+  font-size: larger;
+}
+
+.subtext {
+	margin: 0;
+	display: inline;
+	opacity: 0.5;
+}
+
+.time {
+	height: 30px;
+	display: block;
+	line-height: 30px;
+	text-align: right;
+	padding-right: 5px;
+	color: #676767;
+}
+
+.halfhour{
+	font-size: 10px;
+	text-align: right;
+}
+
+.event {
+	color: red;
+	background-color: #FFF;
+	border-left: 3px solid #89AFD2;
+	position: absolute;
+	float:left;
+	padding-left: 3px;
+}
+
+.event h2 {
+	color: coral;
+	font-size: 10px;
+	position: relative;
+	float:right;
+	padding-right: 10px;
+}
+
